@@ -155,10 +155,9 @@ Windows 上调用原生工具请用 `.bat` / `.cmd` 名字（`pod.bat`、`npx.cm
 
 ### 提交模板前
 
-- 不要带签名材料：不放 `.p12` / `.mobileprovision`，工程里不写 `DEVELOPMENT_TEAM` / `PROVISIONING_PROFILE_SPECIFIER`。
-- 不要用 `#Preview`：它的宏插件只有 macOS 版，用了之后模板在 Windows、Linux 上编不过。
+不要带签名材料：不放 `.p12` / `.mobileprovision`，工程里不写 `DEVELOPMENT_TEAM` / `PROVISIONING_PROFILE_SPECIFIER`。
 
-提交前请先验证：`kxbuild project create -t <id> -n Demo -o <目录>`，再编译生成的项目。
+验证模板：`kxbuild project create -t <id> -n Demo -o <目录>`，再编译生成的项目。
 Windows 上 React Native 和 Expo 请用短路径（如 `C:\x`），它们的 Pods 目录层级很深。
 
 ## 许可证

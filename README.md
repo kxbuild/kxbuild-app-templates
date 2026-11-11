@@ -162,10 +162,9 @@ On Windows, call native tools by their `.bat` / `.cmd` names (`pod.bat`, `npx.cm
 
 ### Before you send a template
 
-- Leave out signing material: no `.p12` / `.mobileprovision` files and no `DEVELOPMENT_TEAM` / `PROVISIONING_PROFILE_SPECIFIER` in the project.
-- Don't use `#Preview`: its macro plugin is only available on macOS, so the template would not build on Windows and Linux.
+Leave out signing material: no `.p12` / `.mobileprovision` files and no `DEVELOPMENT_TEAM` / `PROVISIONING_PROFILE_SPECIFIER` in the project.
 
-Check a template before sending it: `kxbuild project create -t <id> -n Demo -o <dir>`, then build the project.
+Check the template: `kxbuild project create -t <id> -n Demo -o <dir>`, then build the project.
 On Windows, use a short output path (e.g. `C:\x`) for React Native and Expo — their Pods tree is deep.
 
 ## License
