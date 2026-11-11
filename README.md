@@ -160,18 +160,10 @@ by hand. `--no-script` copies the template without running the script.
 On Windows, call native tools by their `.bat` / `.cmd` names (`pod.bat`, `npx.cmd`, `flutter.bat`) — see the
 `case "$(uname -s)"` at the top of the existing scripts.
 
-### Rules for templates
+### Before you send a template
 
-- No signing material (`.p12`, `.mobileprovision`) and no `DEVELOPMENT_TEAM` / `PROVISIONING_PROFILE_SPECIFIER`
-  in the project.
-- No `xcuserdata/`, `compile_commands.json` or build output.
-- `IPHONEOS_DEPLOYMENT_TARGET = 15.0`, `MARKETING_VERSION = 1.0`, `objectVersion = 56`.
-- Storyboards use basic elements only: label, button, switch, image view, constraints, outlets and actions
-  (no stack views, no segues). Target templates build their UI in code.
-- `AccentColor` has a concrete color value.
-- No `#Preview` or other Xcode macro plugins, so the template builds on Windows, Linux and macOS.
-- Apps without a storyboard use `INFOPLIST_KEY_UILaunchScreen_Generation = YES`
-  (SwiftUI apps also `INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES`).
+- Leave out signing material: no `.p12` / `.mobileprovision` files and no `DEVELOPMENT_TEAM` / `PROVISIONING_PROFILE_SPECIFIER` in the project.
+- Don't use `#Preview`: its macro plugin is only available on macOS, so the template would not build on Windows and Linux.
 
 Check a template before sending it: `kxbuild project create -t <id> -n Demo -o <dir>`, then build the project.
 On Windows, use a short output path (e.g. `C:\x`) for React Native and Expo — their Pods tree is deep.

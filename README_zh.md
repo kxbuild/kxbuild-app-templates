@@ -153,15 +153,10 @@ Target 模板只包含 `__NAME__/` 下的源码、资源和 `Info.plist`，不�
 脚本退出码非 0 时 `project create` 失败，项目目录保留，可以进去手动重跑失败的那一步。`--no-script` 只拷贝不执行脚本。
 Windows 上调用原生工具请用 `.bat` / `.cmd` 名字（`pod.bat`、`npx.cmd`、`flutter.bat`），参考现有脚本开头的 `case "$(uname -s)"`。
 
-### 模板规则
+### 提交模板前
 
-- 不带任何签名材料（`.p12`、`.mobileprovision`），工程里不写 `DEVELOPMENT_TEAM` / `PROVISIONING_PROFILE_SPECIFIER`。
-- 不带 `xcuserdata/`、`compile_commands.json` 和构建产物。
-- `IPHONEOS_DEPLOYMENT_TARGET = 15.0`、`MARKETING_VERSION = 1.0`、`objectVersion = 56`。
-- Storyboard 只用基础元素：label、button、switch、imageView、约束、outlet、action（不用 stackView 和 segue）。Target 模板的界面用代码构建。
-- `AccentColor` 要有具体颜色值。
-- 不用 `#Preview` 等依赖 Xcode 宏插件的写法，保证模板在 Windows、Linux、macOS 上都能编译。
-- 不用 Storyboard 的 App 设置 `INFOPLIST_KEY_UILaunchScreen_Generation = YES`（SwiftUI 应用再加 `INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES`）。
+- 不要带签名材料：不放 `.p12` / `.mobileprovision`，工程里不写 `DEVELOPMENT_TEAM` / `PROVISIONING_PROFILE_SPECIFIER`。
+- 不要用 `#Preview`：它的宏插件只有 macOS 版，用了之后模板在 Windows、Linux 上编不过。
 
 提交前请先验证：`kxbuild project create -t <id> -n Demo -o <目录>`，再编译生成的项目。
 Windows 上 React Native 和 Expo 请用短路径（如 `C:\x`），它们的 Pods 目录层级很深。
