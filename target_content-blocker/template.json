@@ -1,0 +1,21 @@
+{
+  "name": {
+    "en": "Content Blocker Extension",
+    "zh": "内容拦截扩展"
+  },
+  "description": {
+    "en": "Gives Safari a JSON list of rules (blockerList.json) for blocking or hiding web content.",
+    "zh": "向 Safari 提供一份 JSON 规则表（blockerList.json），拦截或隐藏网页内容。"
+  },
+  "category": "target",
+  "type": "content-blocker",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "none",
+  "order": 250,
+  "extensionPoint": "com.apple.Safari.content-blocker",
+  "minimumDeployment": "15.0",
+  "settings": {
+    "ARCHS": "$(ARCHS_STANDARD_64_BIT)"
+  }
+}

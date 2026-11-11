@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "Framework",
+    "zh": "框架"
+  },
+  "description": {
+    "en": "Dynamic framework in Objective-C, linked and embedded in the app (Frameworks/).",
+    "zh": "Objective-C 动态框架，链接并嵌入到 App 的 Frameworks 目录。"
+  },
+  "category": "target",
+  "type": "framework",
+  "kind": "framework",
+  "language": "objc",
+  "ui": "none",
+  "order": 21,
+  "settings": {
+    "DEFINES_MODULE": "YES"
+  },
+  "publicHeaders": [
+    "__NAME__.h",
+    "Greeter.h"
+  ]
+}

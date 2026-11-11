@@ -1,0 +1,21 @@
+{
+  "name": {
+    "en": "Quick Look Preview Extension",
+    "zh": "快速查看预览扩展"
+  },
+  "description": {
+    "en": "Previews your own file types in Quick Look (Files, Mail, share sheets); preview view built in code (no storyboard).",
+    "zh": "在快速查看（文件、邮件、分享面板等）里预览你的自定义文件类型；预览界面纯代码构建（不用 Storyboard）。"
+  },
+  "category": "target",
+  "type": "quicklook-preview",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "uikit",
+  "order": 330,
+  "extensionPoint": "com.apple.quicklook.preview",
+  "minimumDeployment": "15.0",
+  "frameworks": [
+    "QuickLook"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": {
+    "en": "Thumbnail Extension",
+    "zh": "缩略图扩展"
+  },
+  "description": {
+    "en": "Draws thumbnails for your own file types, shown in the Files app and Quick Look.",
+    "zh": "为你的自定义文件类型绘制缩略图，在「文件」App 和快速查看里显示。"
+  },
+  "category": "target",
+  "type": "thumbnail",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "none",
+  "order": 340,
+  "extensionPoint": "com.apple.quicklook.thumbnail",
+  "minimumDeployment": "15.0",
+  "frameworks": [
+    "QuickLookThumbnailing"
+  ]
+}

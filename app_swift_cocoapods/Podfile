@@ -1,0 +1,8 @@
+platform :ios, '15.0'
+
+target '__NAME__' do
+  use_frameworks!
+
+  # Pods for __NAME__
+  # pod 'Alamofire'
+end

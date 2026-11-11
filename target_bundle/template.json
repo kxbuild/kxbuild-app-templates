@@ -1,0 +1,16 @@
+{
+  "name": {
+    "en": "Resource Bundle",
+    "zh": "资源包"
+  },
+  "description": {
+    "en": "Resource bundle (.bundle) copied into the app; load it with Bundle(url:).",
+    "zh": "资源包（.bundle），复制到 App 里，用 Bundle(url:) 读取。"
+  },
+  "category": "target",
+  "type": "bundle",
+  "kind": "bundle",
+  "language": "none",
+  "ui": "none",
+  "order": 40
+}

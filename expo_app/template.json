@@ -1,0 +1,18 @@
+{
+  "name": {
+    "en": "Expo App",
+    "zh": "Expo 应用"
+  },
+  "description": {
+    "en": "Generated with create-expo-app; `kxbuild doctor` runs `expo prebuild` for iOS and the pods are installed. Needs Node.js and CocoaPods.",
+    "zh": "用 create-expo-app 生成，`kxbuild doctor` 执行 iOS 的 `expo prebuild` 并安装 pods。需要 Node.js 和 CocoaPods。"
+  },
+  "category": "hybrid",
+  "language": "javascript",
+  "ui": "expo",
+  "order": 70,
+  "requires": [
+    "node",
+    "cocoapods"
+  ]
+}

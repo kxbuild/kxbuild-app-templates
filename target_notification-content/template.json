@@ -1,0 +1,22 @@
+{
+  "name": {
+    "en": "Notification Content Extension",
+    "zh": "通知内容扩展"
+  },
+  "description": {
+    "en": "Custom interface for expanded notifications of one category, built in code (no storyboard).",
+    "zh": "为某一类通知提供展开后的自定义界面，纯代码构建（不用 Storyboard）。"
+  },
+  "category": "target",
+  "type": "notification-content",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "uikit",
+  "order": 130,
+  "extensionPoint": "com.apple.usernotifications.content-extension",
+  "minimumDeployment": "15.0",
+  "frameworks": [
+    "UserNotifications",
+    "UserNotificationsUI"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": {
+    "en": "Safari Web Extension",
+    "zh": "Safari 网页扩展"
+  },
+  "description": {
+    "en": "A Safari web extension (manifest v3, background and content scripts, toolbar popup) with a native message handler.",
+    "zh": "Safari 网页扩展（manifest v3、后台与内容脚本、工具栏弹窗），带原生消息处理器。"
+  },
+  "category": "target",
+  "type": "safari-web-extension",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "none",
+  "order": 240,
+  "extensionPoint": "com.apple.Safari.web-extension",
+  "minimumDeployment": "15.0",
+  "settings": {
+    "OTHER_LDFLAGS": "-framework SafariServices"
+  },
+  "folderReferences": [
+    "Resources/_locales",
+    "Resources/images"
+  ]
+}

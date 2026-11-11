@@ -1,0 +1,18 @@
+{
+  "name": {
+    "en": "App Intents Extension",
+    "zh": "App Intents 扩展"
+  },
+  "description": {
+    "en": "Runs app intents for Shortcuts, Siri and Spotlight outside the app process (ExtensionKit, embedded in Extensions).",
+    "zh": "在 App 进程之外为快捷指令、Siri、聚焦搜索执行 App Intent（ExtensionKit，嵌入到 Extensions 目录）。"
+  },
+  "category": "target",
+  "type": "app-intents",
+  "kind": "extensionkit",
+  "language": "swift",
+  "ui": "none",
+  "order": 160,
+  "extensionPoint": "com.apple.appintents-extension",
+  "minimumDeployment": "16.0"
+}

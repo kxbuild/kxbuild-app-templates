@@ -1,0 +1,14 @@
+{
+  "name": {
+    "en": "iOS App (Objective-C, UIKit)",
+    "zh": "iOS 应用（Objective-C · UIKit）"
+  },
+  "description": {
+    "en": "Single-view UIKit app in Objective-C with a storyboard and asset catalog.",
+    "zh": "Objective-C 编写的单页 UIKit 应用：Storyboard、资源目录。"
+  },
+  "category": "app",
+  "language": "objc",
+  "ui": "uikit",
+  "order": 20
+}

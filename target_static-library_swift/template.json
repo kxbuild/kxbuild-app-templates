@@ -1,0 +1,19 @@
+{
+  "name": {
+    "en": "Static Library",
+    "zh": "静态库"
+  },
+  "description": {
+    "en": "Static library in Swift, linked into the app.",
+    "zh": "Swift 静态库，链接进 App。"
+  },
+  "category": "target",
+  "type": "static-library",
+  "kind": "static-library",
+  "language": "swift",
+  "ui": "none",
+  "order": 30,
+  "settings": {
+    "OTHER_LDFLAGS": "-ObjC"
+  }
+}

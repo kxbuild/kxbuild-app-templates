@@ -1,0 +1,24 @@
+{
+  "name": {
+    "en": "Background Download Extension",
+    "zh": "后台下载扩展"
+  },
+  "description": {
+    "en": "Background Assets: the system downloads your Apple-hosted asset packs at install, update and in the background (ExtensionKit, embedded in Extensions).",
+    "zh": "Background Assets：系统在安装、更新时和后台自动下载 Apple 托管的资源包（ExtensionKit，嵌入到 Extensions 目录）。"
+  },
+  "category": "target",
+  "type": "background-download",
+  "kind": "extensionkit",
+  "language": "swift",
+  "ui": "none",
+  "order": 380,
+  "extensionPoint": "com.apple.background-asset-downloader-extension",
+  "minimumDeployment": "26.0",
+  "requiresAppGroup": true,
+  "hostInfoPlist": {
+    "BAAppGroupID": "__APP_GROUP__",
+    "BAHasManagedAssetPacks": true,
+    "BAUsesAppleHosting": true
+  }
+}

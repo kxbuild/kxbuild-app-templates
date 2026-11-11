@@ -1,0 +1,21 @@
+{
+  "name": {
+    "en": "Call Directory Extension",
+    "zh": "来电识别扩展"
+  },
+  "description": {
+    "en": "Supplies phone numbers for the system to block or label with a caller name on incoming calls.",
+    "zh": "向系统提供电话号码，来电时拦截或显示来电者标签。"
+  },
+  "category": "target",
+  "type": "call-directory",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "none",
+  "order": 280,
+  "extensionPoint": "com.apple.callkit.call-directory",
+  "minimumDeployment": "15.0",
+  "settings": {
+    "ARCHS": "$(ARCHS_STANDARD_64_BIT)"
+  }
+}

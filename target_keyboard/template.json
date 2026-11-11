@@ -1,0 +1,18 @@
+{
+  "name": {
+    "en": "Custom Keyboard Extension",
+    "zh": "自定义键盘扩展"
+  },
+  "description": {
+    "en": "A system-wide keyboard users can switch to in place of the standard one; keys built in code.",
+    "zh": "用户可在系统键盘之外切换使用的全局键盘；按键纯代码构建。"
+  },
+  "category": "target",
+  "type": "keyboard",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "uikit",
+  "order": 200,
+  "extensionPoint": "com.apple.keyboard-service",
+  "minimumDeployment": "15.0"
+}

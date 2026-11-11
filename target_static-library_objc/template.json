@@ -1,0 +1,22 @@
+{
+  "name": {
+    "en": "Static Library",
+    "zh": "静态库"
+  },
+  "description": {
+    "en": "Static library in Objective-C, linked into the app; headers are copied to include/<name>/.",
+    "zh": "Objective-C 静态库，链接进 App，头文件复制到 include/<名称>/。"
+  },
+  "category": "target",
+  "type": "static-library",
+  "kind": "static-library",
+  "language": "objc",
+  "ui": "none",
+  "order": 31,
+  "settings": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "publicHeaders": [
+    "__NAME__.h"
+  ]
+}

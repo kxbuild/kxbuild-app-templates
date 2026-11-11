@@ -1,0 +1,25 @@
+{
+  "name": {
+    "en": "iMessage Extension",
+    "zh": "iMessage 扩展"
+  },
+  "description": {
+    "en": "An app in the Messages app drawer that composes and sends interactive messages; interface built in code (no storyboard).",
+    "zh": "出现在「信息」App 抽屉里的小程序，编写并发送可交互的消息；界面纯代码构建（不用 Storyboard）。"
+  },
+  "category": "target",
+  "type": "imessage",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "uikit",
+  "order": 210,
+  "extensionPoint": "com.apple.message-payload-provider",
+  "minimumDeployment": "15.0",
+  "settings": {
+    "ASSETCATALOG_COMPILER_APPICON_NAME": "iMessage App Icon"
+  },
+  "frameworks": [
+    "Messages"
+  ],
+  "productType": "com.apple.product-type.app-extension.messages"
+}

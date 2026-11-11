@@ -1,0 +1,14 @@
+{
+  "name": {
+    "en": "Static Library (Objective-C)",
+    "zh": "静态库（Objective-C）"
+  },
+  "description": {
+    "en": "Static iOS library (lib<Name>.a) in Objective-C; public headers are copied to include/<Name>/ next to the archive.",
+    "zh": "Objective-C 编写的 iOS 静态库（lib<Name>.a），公开头文件复制到产物旁的 include/<Name>/。"
+  },
+  "category": "library",
+  "language": "objc",
+  "ui": "none",
+  "order": 90
+}

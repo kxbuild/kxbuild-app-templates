@@ -1,0 +1,14 @@
+{
+  "name": {
+    "en": "iOS App (WKWebView shell)",
+    "zh": "iOS 应用（WKWebView 套壳 / H5）"
+  },
+  "description": {
+    "en": "UIKit app whose whole UI is a WKWebView: bundled www/ pages (or a remote URL), progress bar, back gesture, and a JS↔native message bridge with examples.",
+    "zh": "整个界面就是一个 WKWebView 的 UIKit 应用：加载打包的 www/ 页面（或远程 URL），带进度条、返回手势和 JS↔原生消息桥示例。"
+  },
+  "category": "hybrid",
+  "language": "swift",
+  "ui": "webview",
+  "order": 15
+}

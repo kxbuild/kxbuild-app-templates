@@ -1,0 +1,14 @@
+{
+  "name": {
+    "en": "iOS App (Swift, UIKit)",
+    "zh": "iOS 应用（Swift · UIKit）"
+  },
+  "description": {
+    "en": "Single-view UIKit app in Swift with a storyboard, scene delegate and asset catalog.",
+    "zh": "Swift 编写的单页 UIKit 应用：Storyboard、SceneDelegate、资源目录。"
+  },
+  "category": "app",
+  "language": "swift",
+  "ui": "uikit",
+  "order": 10
+}

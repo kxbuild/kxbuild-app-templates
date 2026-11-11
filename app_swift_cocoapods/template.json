@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "iOS App (Swift, CocoaPods)",
+    "zh": "iOS 应用（Swift · CocoaPods）"
+  },
+  "description": {
+    "en": "The Swift UIKit app plus a Podfile; `pod install` runs on creation, then build the .xcworkspace.",
+    "zh": "Swift UIKit 应用外加 Podfile；创建时自动 `pod install`，之后编译 .xcworkspace。"
+  },
+  "category": "app",
+  "language": "swift",
+  "ui": "uikit",
+  "order": 40,
+  "requires": [
+    "cocoapods"
+  ]
+}

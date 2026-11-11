@@ -1,0 +1,26 @@
+{
+  "name": {
+    "en": "Widget",
+    "zh": "小组件"
+  },
+  "description": {
+    "en": "WidgetKit extension: a widget bundle with one static widget (timeline provider, entry view, preview).",
+    "zh": "WidgetKit 扩展：一个小组件包，含一个静态小组件（时间线、条目视图、预览）。"
+  },
+  "category": "target",
+  "type": "widget",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "swiftui",
+  "order": 100,
+  "extensionPoint": "com.apple.widgetkit-extension",
+  "minimumDeployment": "17.0",
+  "frameworks": [
+    "WidgetKit",
+    "SwiftUI"
+  ],
+  "settings": {
+    "ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME": "AccentColor",
+    "ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME": "WidgetBackground"
+  }
+}

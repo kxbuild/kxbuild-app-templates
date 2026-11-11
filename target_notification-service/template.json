@@ -1,0 +1,18 @@
+{
+  "name": {
+    "en": "Notification Service Extension",
+    "zh": "通知服务扩展"
+  },
+  "description": {
+    "en": "Modifies the content of remote notifications before they are shown, e.g. downloads an image attachment.",
+    "zh": "在远程推送显示之前修改内容，例如下载图片附件。"
+  },
+  "category": "target",
+  "type": "notification-service",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "none",
+  "order": 120,
+  "extensionPoint": "com.apple.usernotifications.service",
+  "minimumDeployment": "15.0"
+}

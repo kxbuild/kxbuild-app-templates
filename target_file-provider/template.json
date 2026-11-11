@@ -1,0 +1,22 @@
+{
+  "name": {
+    "en": "File Provider Extension",
+    "zh": "文件提供者扩展"
+  },
+  "description": {
+    "en": "Shows your cloud storage as a location in the Files app (replicated File Provider: items, enumerator, sync hooks).",
+    "zh": "把你的云存储作为一个位置显示在「文件」App 里（复制式 File Provider：条目、枚举器、同步回调）。"
+  },
+  "category": "target",
+  "type": "file-provider",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "none",
+  "order": 260,
+  "extensionPoint": "com.apple.fileprovider-nonui",
+  "minimumDeployment": "16.0",
+  "frameworks": [
+    "UniformTypeIdentifiers"
+  ],
+  "requiresAppGroup": true
+}

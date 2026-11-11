@@ -1,0 +1,18 @@
+{
+  "name": {
+    "en": "Share Extension",
+    "zh": "分享扩展"
+  },
+  "description": {
+    "en": "Appears in the share sheet for text, a web URL or an image; compose view built in code (no storyboard).",
+    "zh": "在分享面板里接收文本、网址或图片；编辑界面纯代码构建（不用 Storyboard）。"
+  },
+  "category": "target",
+  "type": "share",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "uikit",
+  "order": 140,
+  "extensionPoint": "com.apple.share-services",
+  "minimumDeployment": "15.0"
+}

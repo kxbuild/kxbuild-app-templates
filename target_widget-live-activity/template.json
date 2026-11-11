@@ -1,0 +1,30 @@
+{
+  "name": {
+    "en": "Widget with Live Activity",
+    "zh": "小组件 + 实时活动"
+  },
+  "description": {
+    "en": "WidgetKit extension with a static widget and a Live Activity (Lock Screen and Dynamic Island); turns on NSSupportsLiveActivities in the app.",
+    "zh": "WidgetKit 扩展：一个静态小组件和一个实时活动（锁屏与灵动岛），并在 App 里打开 NSSupportsLiveActivities。"
+  },
+  "category": "target",
+  "type": "widget-live-activity",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "swiftui",
+  "order": 110,
+  "extensionPoint": "com.apple.widgetkit-extension",
+  "minimumDeployment": "17.0",
+  "frameworks": [
+    "WidgetKit",
+    "SwiftUI",
+    "ActivityKit"
+  ],
+  "settings": {
+    "ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME": "AccentColor",
+    "ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME": "WidgetBackground"
+  },
+  "hostInfoPlist": {
+    "NSSupportsLiveActivities": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": {
+    "en": "iOS App (Objective-C + Swift)",
+    "zh": "iOS 应用（Objective-C + Swift 混编）"
+  },
+  "description": {
+    "en": "Objective-C UIKit app that also compiles Swift: a bridging header for OC→Swift and the generated -Swift.h for Swift→OC.",
+    "zh": "Objective-C UIKit 应用并混编 Swift：桥接头文件让 Swift 调 OC，生成的 -Swift.h 让 OC 调 Swift。"
+  },
+  "category": "app",
+  "language": "mixed",
+  "ui": "uikit",
+  "order": 30
+}

@@ -1,0 +1,14 @@
+{
+  "name": {
+    "en": "Framework (Swift)",
+    "zh": "Framework（Swift 动态库）"
+  },
+  "description": {
+    "en": "Dynamic iOS framework in Swift with an umbrella header and a public sample class; embed it in an app or link it from another project.",
+    "zh": "Swift 编写的 iOS 动态 Framework：伞头文件 + 一个 public 示例类，可嵌入 App 或被其它工程链接。"
+  },
+  "category": "library",
+  "language": "swift",
+  "ui": "none",
+  "order": 80
+}

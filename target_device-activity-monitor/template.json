@@ -1,0 +1,30 @@
+{
+  "name": {
+    "en": "Device Activity Monitor Extension",
+    "zh": "设备使用监控扩展"
+  },
+  "description": {
+    "en": "Screen Time: runs your code when a monitored schedule starts or ends or a usage threshold is reached.",
+    "zh": "屏幕使用时间：在监控时段开始、结束或使用时长达到阈值时运行你的代码。"
+  },
+  "category": "target",
+  "type": "device-activity-monitor",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "none",
+  "order": 350,
+  "extensionPoint": "com.apple.deviceactivity.monitor-extension",
+  "minimumDeployment": "16.0",
+  "frameworks": [
+    "DeviceActivity"
+  ],
+  "entitlements": {
+    "com.apple.developer.family-controls": true
+  },
+  "hostEntitlements": {
+    "com.apple.developer.family-controls": true
+  },
+  "capabilities": [
+    "Family Controls"
+  ]
+}

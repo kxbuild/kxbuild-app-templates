@@ -1,0 +1,30 @@
+{
+  "name": {
+    "en": "Shield Action Extension",
+    "zh": "屏蔽界面按钮扩展"
+  },
+  "description": {
+    "en": "Screen Time: decides what the buttons on a shield do (close the app, defer, and so on).",
+    "zh": "屏幕使用时间：决定屏蔽界面上按钮的行为（关闭 App、稍后处理等）。"
+  },
+  "category": "target",
+  "type": "shield-action",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "none",
+  "order": 370,
+  "extensionPoint": "com.apple.ManagedSettings.shield-action-service",
+  "minimumDeployment": "16.0",
+  "frameworks": [
+    "ManagedSettings"
+  ],
+  "entitlements": {
+    "com.apple.developer.family-controls": true
+  },
+  "hostEntitlements": {
+    "com.apple.developer.family-controls": true
+  },
+  "capabilities": [
+    "Family Controls"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "Flutter App",
+    "zh": "Flutter 应用"
+  },
+  "description": {
+    "en": "Generated with `flutter create` (iOS + Android); the bundle identifier is applied to the Runner target. Needs the Flutter SDK on PATH.",
+    "zh": "用 `flutter create` 生成（iOS + Android），Bundle Identifier 写入 Runner target。需要 PATH 上有 Flutter SDK。"
+  },
+  "category": "hybrid",
+  "language": "dart",
+  "ui": "flutter",
+  "order": 50,
+  "requires": [
+    "flutter"
+  ]
+}

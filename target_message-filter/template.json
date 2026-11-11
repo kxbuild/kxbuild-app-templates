@@ -1,0 +1,18 @@
+{
+  "name": {
+    "en": "Message Filter Extension",
+    "zh": "短信过滤扩展"
+  },
+  "description": {
+    "en": "Sorts SMS/MMS from unknown senders into junk, promotion or transaction folders, offline or by asking your server.",
+    "zh": "把陌生号码发来的短信/彩信分到垃圾、推广或交易信息，可离线判断，也可交给你的服务器判断。"
+  },
+  "category": "target",
+  "type": "message-filter",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "none",
+  "order": 300,
+  "extensionPoint": "com.apple.identitylookup.message-filter",
+  "minimumDeployment": "16.0"
+}

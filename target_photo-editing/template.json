@@ -1,0 +1,22 @@
+{
+  "name": {
+    "en": "Photo Editing Extension",
+    "zh": "照片编辑扩展"
+  },
+  "description": {
+    "en": "Adds your own edits to photos inside the Photos app; editing view built in code (no storyboard).",
+    "zh": "在「照片」App 里用你的扩展编辑照片；编辑界面纯代码构建（不用 Storyboard）。"
+  },
+  "category": "target",
+  "type": "photo-editing",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "uikit",
+  "order": 320,
+  "extensionPoint": "com.apple.photo-editing",
+  "minimumDeployment": "15.0",
+  "frameworks": [
+    "PhotosUI",
+    "Photos"
+  ]
+}

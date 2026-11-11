@@ -1,0 +1,14 @@
+{
+  "name": {
+    "en": "iOS App (SwiftUI)",
+    "zh": "iOS 应用（SwiftUI）"
+  },
+  "description": {
+    "en": "Single-view SwiftUI app: an App entry point and a ContentView, no storyboards.",
+    "zh": "单页 SwiftUI 应用：App 入口 + ContentView，不用 Storyboard。"
+  },
+  "category": "app",
+  "language": "swift",
+  "ui": "swiftui",
+  "order": 5
+}

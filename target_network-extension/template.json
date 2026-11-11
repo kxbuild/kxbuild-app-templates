@@ -1,0 +1,34 @@
+{
+  "name": {
+    "en": "Network Extension (Packet Tunnel)",
+    "zh": "网络扩展（数据包隧道）"
+  },
+  "description": {
+    "en": "A packet tunnel provider for a custom VPN protocol; the app configures and starts it with NETunnelProviderManager.",
+    "zh": "自定义 VPN 协议的数据包隧道提供者；App 用 NETunnelProviderManager 配置并启动它。"
+  },
+  "category": "target",
+  "type": "network-extension",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "none",
+  "order": 270,
+  "extensionPoint": "com.apple.networkextension.packet-tunnel",
+  "minimumDeployment": "15.0",
+  "frameworks": [
+    "NetworkExtension"
+  ],
+  "entitlements": {
+    "com.apple.developer.networking.networkextension": [
+      "packet-tunnel-provider"
+    ]
+  },
+  "hostEntitlements": {
+    "com.apple.developer.networking.networkextension": [
+      "packet-tunnel-provider"
+    ]
+  },
+  "capabilities": [
+    "Network Extensions"
+  ]
+}

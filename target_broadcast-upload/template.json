@@ -1,0 +1,21 @@
+{
+  "name": {
+    "en": "Broadcast Upload Extension",
+    "zh": "直播上传扩展"
+  },
+  "description": {
+    "en": "Receives the video and audio sample buffers of a ReplayKit screen broadcast and uploads them to your service.",
+    "zh": "接收 ReplayKit 屏幕直播的视频、音频采样缓冲，上传到你的服务。"
+  },
+  "category": "target",
+  "type": "broadcast-upload",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "none",
+  "order": 220,
+  "extensionPoint": "com.apple.broadcast-services-upload",
+  "minimumDeployment": "15.0",
+  "frameworks": [
+    "ReplayKit"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": {
+    "en": "Shield Configuration Extension",
+    "zh": "屏蔽界面配置扩展"
+  },
+  "description": {
+    "en": "Screen Time: customizes the shield shown over apps and websites your app has restricted.",
+    "zh": "屏幕使用时间：自定义你的 App 限制某个 App 或网站后显示的屏蔽界面。"
+  },
+  "category": "target",
+  "type": "shield-configuration",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "none",
+  "order": 360,
+  "extensionPoint": "com.apple.ManagedSettingsUI.shield-configuration-service",
+  "minimumDeployment": "16.0",
+  "frameworks": [
+    "ManagedSettings",
+    "ManagedSettingsUI"
+  ],
+  "entitlements": {
+    "com.apple.developer.family-controls": true
+  },
+  "hostEntitlements": {
+    "com.apple.developer.family-controls": true
+  },
+  "capabilities": [
+    "Family Controls"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": {
+    "en": "Framework",
+    "zh": "框架"
+  },
+  "description": {
+    "en": "Dynamic framework in Swift, linked and embedded in the app (Frameworks/).",
+    "zh": "Swift 动态框架，链接并嵌入到 App 的 Frameworks 目录。"
+  },
+  "category": "target",
+  "type": "framework",
+  "kind": "framework",
+  "language": "swift",
+  "ui": "none",
+  "order": 20,
+  "settings": {
+    "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES",
+    "SWIFT_INSTALL_MODULE": "YES",
+    "SWIFT_INSTALL_OBJC_HEADER": "NO"
+  }
+}

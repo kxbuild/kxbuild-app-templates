@@ -1,0 +1,27 @@
+{
+  "name": {
+    "en": "AutoFill Credential Provider Extension",
+    "zh": "自动填充密码扩展"
+  },
+  "description": {
+    "en": "Offers your app's saved passwords in the system AutoFill (QuickType bar and password list); picker UI built in code (no storyboard).",
+    "zh": "让系统自动填充（键盘上方建议栏和密码列表）提供你的 App 保存的密码；选择界面纯代码构建（不用 Storyboard）。"
+  },
+  "category": "target",
+  "type": "credential-provider",
+  "kind": "app-extension",
+  "language": "swift",
+  "ui": "uikit",
+  "order": 310,
+  "extensionPoint": "com.apple.authentication-services-credential-provider-ui",
+  "minimumDeployment": "15.0",
+  "frameworks": [
+    "AuthenticationServices"
+  ],
+  "entitlements": {
+    "com.apple.developer.authentication-services.autofill-credential-provider": true
+  },
+  "capabilities": [
+    "AutoFill Credential Provider"
+  ]
+}
