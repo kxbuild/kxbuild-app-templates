@@ -2,10 +2,16 @@
 
 **English** · [简体中文](README_zh.md)
 
-Project and target templates used by [KXBuild](https://github.com/kxbuild/kxbuild) when you create a new iOS app
-(`kxbuild project create`, or **New Project** in the KXBuild VS Code plugin) or add a target to an existing
-project (`kxbuild project add-target`).
+**Open-source iOS project and app extension templates for Windows, Linux and macOS**
 
+This repository holds the 42 templates [KXBuild](https://github.com/kxbuild/kxbuild) uses to create iOS apps:
+11 project templates (SwiftUI, UIKit in Swift or Objective-C, mixed Objective-C + Swift, WKWebView, CocoaPods,
+Flutter, React Native, Expo, a Swift framework and a static library) and 31 target templates (widgets, Live Activities,
+App Clips, share, notification, keyboard, Safari, network and Screen Time extensions).
+Every template produces a standard `.xcodeproj` that builds, runs on iPhone and ships to the App Store with KXBuild.
+
+Templates are used by `kxbuild project create` and **New Project** in the KXBuild VS Code plugin (new apps), and by
+`kxbuild project add-target` (new targets in an existing project).
 Ideas for new templates, fixes and improvements are welcome: open an issue or send a pull request.
 
 ## Project templates

@@ -2,9 +2,15 @@
 
 [English](README.md) · **简体中文**
 
-[KXBuild](https://github.com/kxbuild/kxbuild) 新建 iOS 项目（`kxbuild project create`，或 KXBuild VS Code 插件里的「新建项目」）
-和给已有项目添加 target（`kxbuild project add-target`）时使用的模板。
+**开源的 iOS 项目模板与扩展模板，支持 Windows、Linux、macOS**
 
+本仓库是 [KXBuild](https://github.com/kxbuild/kxbuild) 新建 iOS App 用的 42 个模板：
+11 个项目模板（SwiftUI、Swift 或 Objective-C 的 UIKit、Objective-C + Swift 混编、WKWebView 套壳、CocoaPods、
+Flutter、React Native、Expo、Swift Framework、静态库）和 31 个 target 模板（小组件、实时活动、App Clip、分享、通知、
+键盘、Safari、网络和屏幕使用时间等扩展）。
+每个模板生成标准的 `.xcodeproj`，用 KXBuild 即可编译、在 iPhone 上运行并提交 App Store。
+
+新建项目用 `kxbuild project create` 或 KXBuild VS Code 插件里的「新建项目」，给已有项目添加 target 用 `kxbuild project add-target`。
 欢迎提建议、提新模板、改进现有模板：直接提 Issue 或 Pull Request。
 
 ## 项目模板
