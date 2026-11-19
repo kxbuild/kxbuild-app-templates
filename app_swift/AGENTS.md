@@ -7,6 +7,7 @@ This iOS project is built with KXBuild on Windows, Linux and macOS. Use the kxbu
 - Name: `__NAME__` · bundle identifier: `__BUNDLE_ID__`
 - Build container: `__NAME__.xcodeproj` (pass this path to every kxbuild command)
 - Sources: `__NAME__/` (UIKit, Swift, Main.storyboard)
+- `__NAME__/` is a synchronized folder: every file and folder created inside it is part of the app target and built automatically, with no project edit
 
 ## Build, run, test
 
@@ -33,7 +34,7 @@ This iOS project is built with KXBuild on Windows, Linux and macOS. Use the kxbu
 ## Change the project
 
 - Schemes, targets, bundle ids and the built executable path: `kxbuild project info __NAME__.xcodeproj --json`.
-- Add a Swift package: `kxbuild project add-package`; register a file or asset catalog with a target: `kxbuild project add-resource`; add a target (widget, extension, framework): `kxbuild project add-target`; change build settings: `kxbuild project settings`. Run each with `--help` for its options. Do not edit `project.pbxproj` by hand.
+- Add a Swift package: `kxbuild project add-package`; add files or folders outside `__NAME__/` to the project: `kxbuild project add-files`; choose which targets build a file or folder: `kxbuild project set-targets` (`kxbuild project membership` shows the current state); add a target (widget, extension, framework): `kxbuild project add-target`; change build settings: `kxbuild project settings`. Run each with `--help` for its options. Do not edit `project.pbxproj` by hand.
 
 ## Device
 

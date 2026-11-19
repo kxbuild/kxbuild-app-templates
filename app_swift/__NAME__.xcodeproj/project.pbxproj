@@ -3,28 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
-
-/* Begin PBXBuildFile section */
-		25471DC6CA6A2BAFECB58475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1C632AB21F4CDC515C4AE0 /* AppDelegate.swift */; };
-		ADFE35CFC65A08D19D649BBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF3E11D96FC5EF9CDA2280 /* SceneDelegate.swift */; };
-		FEE70E9BB71282071D71792B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AE8250B6AAEA22A7E3F544 /* ViewController.swift */; };
-		90D6AD4B19C13FBE4F6E5790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6089265E58EAA921A71C6C7 /* Main.storyboard */; };
-		60AA812DAB7CD2BBED85E7A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46E6BD6ECBD88DDFDDC51DB /* Assets.xcassets */; };
-		47C49F87BC0AB8CB33BBCECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8E8305AF8DEFE88EFC3B43 /* LaunchScreen.storyboard */; };
-/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1EBBFD87F209696B814800D1 /* __NAME__.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = __NAME__.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA1C632AB21F4CDC515C4AE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		61AF3E11D96FC5EF9CDA2280 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		75AE8250B6AAEA22A7E3F544 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		79AF7931EBA19896444D83A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D46E6BD6ECBD88DDFDDC51DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F1F60B9D4E523223A03FD442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BD93DF67C575E6DA2A58D2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F31C04B753992AA5C2EA250A /* Exceptions for "__NAME__" folder in "__NAME__" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FC63D77A77A3E959AAF834F3 /* __NAME__ */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AB77395F0B6ED5F2221E837F /* __NAME__ */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F31C04B753992AA5C2EA250A /* Exceptions for "__NAME__" folder in "__NAME__" target */,
+			);
+			path = __NAME__;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E70E5C30EF0877E8F1550BCB /* Frameworks */ = {
@@ -53,20 +58,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB77395F0B6ED5F2221E837F /* __NAME__ */ = {
-			isa = PBXGroup;
-			children = (
-				CA1C632AB21F4CDC515C4AE0 /* AppDelegate.swift */,
-				61AF3E11D96FC5EF9CDA2280 /* SceneDelegate.swift */,
-				75AE8250B6AAEA22A7E3F544 /* ViewController.swift */,
-				C6089265E58EAA921A71C6C7 /* Main.storyboard */,
-				D46E6BD6ECBD88DDFDDC51DB /* Assets.xcassets */,
-				7D8E8305AF8DEFE88EFC3B43 /* LaunchScreen.storyboard */,
-				BD93DF67C575E6DA2A58D2FE /* Info.plist */,
-			);
-			path = __NAME__;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,6 +72,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AB77395F0B6ED5F2221E837F /* __NAME__ */,
 			);
 			name = __NAME__;
 			productName = __NAME__;
@@ -103,7 +97,6 @@
 				};
 			};
 			buildConfigurationList = A77153444574FEE8B0915E7C /* Build configuration list for PBXProject "__NAME__" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,6 +104,7 @@
 				Base,
 			);
 			mainGroup = 5E840103A6A572ED22DF8F5D;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = C787613F3CF5045EA543DB1F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +119,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90D6AD4B19C13FBE4F6E5790 /* Main.storyboard in Resources */,
-				60AA812DAB7CD2BBED85E7A9 /* Assets.xcassets in Resources */,
-				47C49F87BC0AB8CB33BBCECD /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25471DC6CA6A2BAFECB58475 /* AppDelegate.swift in Sources */,
-				ADFE35CFC65A08D19D649BBF /* SceneDelegate.swift in Sources */,
-				FEE70E9BB71282071D71792B /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C6089265E58EAA921A71C6C7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79AF7931EBA19896444D83A6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7D8E8305AF8DEFE88EFC3B43 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F1F60B9D4E523223A03FD442 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6BD9EA7798E85C68B3D25F89 /* Debug */ = {
